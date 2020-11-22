@@ -1,0 +1,167 @@
+
+.pb-5, .py-5 {
+    padding-bottom: 0rem!important;
+}
+.slika img{
+	height:110px;
+	width:130px;
+	margin:0px;
+	padding:0px 0px;
+}
+.checked {
+  color: orange;
+}
+/**********
+  navbar
+**********/
+.navbar {
+	background: #ebebe0 !important;
+	margin:0px;
+	padding:0px;
+}
+
+.navbar-brand {
+	color: black !important;
+	font-size:2rem;
+	text-transform: uppercase;
+	letter-spacing:2px;
+}
+.navbar-brand:hover{
+	color:  #a26769 !important;
+	transition: .4s ease;
+}
+.navbar .navbar-nav .nav-link {
+	color: black;
+	text-transform:uppercase;
+	padding-left:35px ;
+}
+.navbar .navbar-nav .nav-link:hover{
+	color:black;
+	transition:ease ;
+}
+.navbar-toggler {
+	background:#dedede; 
+	margin:10px;
+}
+header {
+    background-image: linear-gradient(rgba(242, 242, 242,.9), rgba(236, 226, 208,.99)), url(img/logo.png);
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 75px 0;
+	
+}
+
+header h1{
+	color:#fff;
+	font-size:4rem;
+	font-weight:300;
+	letter-spacing:2px;
+}
+header p{
+	font-size:1.4rem;
+	padding:20px;
+}
+header nav{
+	text-align:center;
+}
+header nav img{
+	height:90vh;
+	float:left;
+}
+header nav ul li {
+  padding-right: 20px;
+  font-weight:bold;
+  color:black;
+  transition: easy-in;
+}
+ul {
+ list-style:none
+     padding-left: 40px;
+}
+ul li {
+    display:inline;
+    
+	
+}
+
+header nav {
+      float:right;
+}
+header nav ul li a:hover{
+  text-decoration:none;
+  color:white;
+}
+/*****************
+     footer
+*****************/
+footer{
+	background: #f5f5f0;
+	height:auto;
+}
+footer a{
+	color:black;
+	font-size:2.5rem;
+	margin:8px;
+	text-align: center ;
+}
+footer a:hover {
+	color: #fff;
+	transition:0.7s;
+}
+footer i:hover {
+	animation: footer 0.7 ease;
+}
+@keyframes footer{
+	100% {
+		transform: rotate(360def);
+	}
+}
+footer h3 {
+	margin-top:15px;
+	padding:10px 0;
+}
+footer h2::after {
+	
+	background:#e7e7e7;
+}
+footer #fb{
+	color:blue;
+}
+footer #ins{
+	color:rgb(153, 51, 153);
+}
+footer #yt{
+	color:red;
+}
+.display-4 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
